@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Grid</title>
+    <link rel="stylesheet" href="creative.css">
+</head>
+<body>
+    <div class="box">
+        <div class="option">
+            <div class="option-box">
+                <div class="slider">
+                    <label for="w-range">Grid Width</label>
+                    <input type="range" id="w-range" min="1" max="55"/>
+                    <span id="w-value">00</span>
+                </div>
+
+                <div class="slider">
+                    <label for="h-range">Grid Height</label>
+                    <input type="range" id="h-range" min="1" max="45"/>
+                    <span id="h-value">00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="sizing-box">
+
+            <button id="paint-btn"> PEN </button>
+            <button id="delete-btn">Erase</button>
+            <input type="color" id="choose-color"> 
+            <button id="clear">Remove Page</button>
+            <button id="create">Create Page</button>
+        </div>
+    </div>
+
+    <div class="container"></div>
+
+    <script src="creative.js"></script> 
+</body>
+</html>

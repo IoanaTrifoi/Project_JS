@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Pacifico", serif;
+    
+}
+body{ 
+    background:rgb(174, 132, 213);
+}
+
+.box{
+    background: #fff;
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.15);
+
+}
+.box h2{
+    font-size: 35px;
+    margin-bottom: 50px;
+    position: relative;
+
+
+}
+.box h2::after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(186, 184, 231);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.box blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+.box blockquote::before,  .box blockquote::after {  
+    content: '"';
+}
+
+.box span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+.box span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(186, 165, 231);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+
+.box div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.box button{
+    background: rgb(82, 17, 78);
+    color: #fff;
+    border: 1px solid #a81ed2;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.box button img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.box button::nth-child(2){
+    background: transparent;
+    color: 333;
+}

@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&family=Pacifico&display=swap');
+
+*{
+    padding: 0;
+    margin: 15px;
+    box-sizing: border-box;
+    font-family: "Pacifico", serif;  
+}
+h1{
+    position: absolute;
+    left: 35%;
+}
+
+body{
+    background: rgb(234, 217, 184);
+}
+
+.box{
+    width: 90vmin;
+    padding: 100px 180px;
+    background-color: rgb(210, 110, 39);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius:10px ;
+    box-shadow: 20px 20px 40px rgba(213, 14, 14, 0.4);
+
+}
+
+span{
+    display: block;
+    text-align:center;
+    font-size: 40px;
+    margin: 5px;
+}
+p{
+    font-size: 20px;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+    word-wrap: break-word;
+    margin: 30px , 0;
+    line-height: 35px;
+}
+
+
+button{
+    display: block;
+    background-color: rgb(183, 218, 26);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0 auto;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 12px 25px;
+    
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1.5s;   
+}

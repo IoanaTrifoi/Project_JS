@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Energy</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            color: white;
+            
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            width: 50%;
+        }
+        .card {
+            background: rgba(154, 124, 154, 0.8);
+            padding: 50px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>CHOOSE ONE, THERE'S NO GOING BACK</h1>
+    <h2> < > </h2>
+    <div class="container">
+        <div class="card" onclick="location.href='sad/sad.html'">Sad</div>
+        <div class="card" onclick="location.href='creative/creative.html'">Creative</div>
+        <div class="card" onclick="location.href='Lost/lost.html'">Lost</div>
+        <div class="card" onclick="location.href='Nemotivat/index.html'">Unmotivate</div>
+
+    </div>
+</body>
+</html>
